@@ -2,7 +2,7 @@
 django-ok-likes-latest
 ==============================
 
-``django-ok-likes`` is a liking app for Django, which allows users "like" and "unlike" any model instance. All functionality provides through `django-rest-framework`_ API views. Template tags and jinja's global functions provide the ability to see who liked an object, which objects were liked by current user and count of likes for a given object. And is compatible with Djnago 5.0
+``django-ok-likes-latest`` is a liking app for Django, which allows users "like" and "unlike" any model instance. All functionality provides through `django-rest-framework`_ API views. Template tags and jinja's global functions provide the ability to see who liked an object, which objects were liked by current user and count of likes for a given object. And is compatible with Djnago 5.0
 
 Installation
 ============
