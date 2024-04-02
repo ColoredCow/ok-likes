@@ -10,7 +10,7 @@ setup(
     name='django-ok-likes-latest',
     version='0.8.0',
     description='Django likes app latest',
-    long_description=open('README.rst').read(),
+    long_description='file: README.rst',
     author='Abhishek Khanduri',
     author_email='khanduriabhishek012@gmail.com',
     url='https://github.com/ColoredCow/ok-likes',
