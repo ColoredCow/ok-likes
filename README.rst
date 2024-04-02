@@ -13,7 +13,7 @@ Install with pip:
 
 .. code:: shell
     
-    pip install django-ok-likes
+    pip install django-ok-likes-latest
 
 
 Update INSTALLED_APPS:
