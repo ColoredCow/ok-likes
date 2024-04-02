@@ -1,10 +1,8 @@
 ==============================
-django-ok-likes |PyPI version|
+django-ok-likes-latest
 ==============================
 
-|Build Status| |Code Health| |Python Versions| |Requirements Status| |license| |PyPI downloads| |Coverage|
-
-``django-ok-likes`` is a liking app for Django, which allows users "like" and "unlike" any model instance. All functionality provides through `django-rest-framework`_ API views. Template tags and jinja's global functions provide the ability to see who liked an object, which objects were liked by current user and count of likes for a given object.
+``django-ok-likes`` is a liking app for Django, which allows users "like" and "unlike" any model instance. All functionality provides through `django-rest-framework`_ API views. Template tags and jinja's global functions provide the ability to see who liked an object, which objects were liked by current user and count of likes for a given object. And is compatible with Djnago 5.0
 
 Installation
 ============
@@ -263,27 +261,3 @@ likes.signals.object_unliked
 ****************************
 
 A signal, which sents immediately after the object was unliked and provides the single kwarg of an object.
-
-
-.. |PyPI version| image:: https://badge.fury.io/py/django-ok-likes.svg
-   :target: https://badge.fury.io/py/django-ok-likes
-.. |Build Status| image:: https://travis-ci.org/LowerDeez/ok-likes.svg?branch=master
-   :target: https://travis-ci.org/LowerDeez/ok-likes
-   :alt: Build status
-.. |Code Health| image:: https://api.codacy.com/project/badge/Grade/aa7e0f444c8d4520b0f0db5abc3a5960    
-   :target: https://www.codacy.com/app/LowerDeez/ok-likes
-   :alt: Code health
-.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/django-ok-likes.svg
-   :target: https://pypi.org/project/django-ok-likes/
-   :alt: Python versions
-.. |license| image:: https://img.shields.io/pypi/l/django-ok-likes.svg
-   :alt: Software license
-   :target: https://github.com/LowerDeez/ok-likes/blob/master/LICENSE
-.. |PyPI downloads| image:: https://img.shields.io/pypi/dm/django-ok-likes.svg
-   :alt: PyPI downloads
-.. |Requirements Status| image:: https://requires.io/github/LowerDeez/ok-likes/requirements.svg?branch=master
-.. |Coverage| image:: https://coveralls.io/repos/github/LowerDeez/ok-likes/badge.svg?branch=master
-   :target: https://coveralls.io/github/LowerDeez/ok-likes?branch=master
-   :alt: Code coverage
-
-.. _django-rest-framework: https://www.django-rest-framework.org/
