@@ -24,7 +24,7 @@ setup(
         "Operating System :: OS Independent",
         "Framework :: Django :: 5.0",
         'Intended Audience :: Developers',
-        "Programming Language :: Python :: 3.10.13",
+        "Programming Language :: Python :: 3.10",
     ]
 
 )
