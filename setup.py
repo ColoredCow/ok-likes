@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='django-ok-likes-latest',
-    version='0.8.0',
+    version='0.8.1',
     description='Django likes app latest',
     long_description='file: README.rst',
     author='Abhishek Khanduri',
@@ -22,8 +22,10 @@ setup(
         'Environment :: Web Environment',
         "Development Status :: 4 - Beta",
         "Operating System :: OS Independent",
+        "Framework :: Django :: 4.2",
         "Framework :: Django :: 5.0",
         'Intended Audience :: Developers',
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ]
 
